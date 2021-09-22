@@ -11,9 +11,14 @@ const App = () => (
     <Fragment>
       <Navbar />
       <Route exact path="/" component={Landing} />
+      <section className="container">
+        <Switch>
+          <Route exact path="/register" component={Register} />
+          <Route exact path="/login" component={Login} />
+        </Switch>
+      </section>
     </Fragment>
   </Router>
 );
-
 
 export default App;
