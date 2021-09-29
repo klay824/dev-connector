@@ -1,6 +1,9 @@
 {
   "name": "devconnector",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "Social media app for devs",
   "main": "server.js",
   "scripts": {
